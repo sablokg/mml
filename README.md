@@ -70,7 +70,6 @@ Caveats: one cohort; the 15 folds come from 3 repeats on the same 171 samples, s
 
 ## Limitations
 
-- Mostly simulated data plus a single real cohort (n = 171, 15 non-independent folds); more real datasets are needed. The 8-replicate feature benchmark has wide uncertainty (replicate SD up to 0.08).
 - The `xgboost` feature uses smelt-ml's from-scratch implementation, not the reference C++ library.
 - Phylogenetic ILR uses topology only (no PhILR coordinate weights); polytomies are resolved arbitrarily.
 - Permutation importance shifts sample totals when a single taxon is shuffled and splits credit among correlated taxa.
