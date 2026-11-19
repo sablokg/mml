@@ -1,0 +1,28 @@
+[package]
+name = "microbiome-ml"
+version = "0.2.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Automated machine learning for microbiome abundance tables: CLR/ILR/phylogenetic transforms, grid search, taxa-level feature importance, classification and regression with smartcore and XGBoost (smelt-ml)"
+license = "MIT"
+keywords = ["microbiome", "machine-learning", "clr", "compositional", "bioinformatics"]
+categories = ["science", "algorithms"]
+
+[features]
+default = []
+# Pure-Rust XGBoost via the `smelt-ml` crate (no C++ toolchain needed).
+xgboost = ["dep:smelt-ml", "dep:ndarray"]
+
+[dependencies]
+smartcore = "0.3.2"
+smelt-ml = { version = "3.2", optional = true }
+ndarray = { version = "0.16", optional = true }
+
+[[example]]
+name = "feature_bench"
+required-features = ["xgboost"]
+
+[[example]]
+name = "zhu_bench"
+path = "real_benchmark/zhu_bench.rs"
+required-features = ["xgboost"]

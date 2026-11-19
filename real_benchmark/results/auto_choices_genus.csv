@@ -1,0 +1,11 @@
+method,folds
+PresenceAbsence+XgBoost,4
+Clr+Knn,2
+LogTss+XgBoost,2
+PresenceAbsence+LogisticRegression,1
+Clr+LogisticRegression,1
+ArcsinSqrt+XgBoost,1
+Tss+XgBoost,1
+LogTss+RandomForest,1
+PresenceAbsence+RandomForest,1
+Clr+RandomForest,1
