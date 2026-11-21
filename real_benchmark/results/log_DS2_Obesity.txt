@@ -1,0 +1,16 @@
+n=253 p=465 classes=["control", "disease"]
+rep 0 fold 0 done
+rep 0 fold 1 done
+rep 0 fold 2 done
+rep 0 fold 3 done
+rep 0 fold 4 done
+rep 1 fold 0 done
+rep 1 fold 1 done
+rep 1 fold 2 done
+rep 1 fold 3 done
+rep 1 fold 4 done
+rep 2 fold 0 done
+rep 2 fold 1 done
+rep 2 fold 2 done
+rep 2 fold 3 done
+rep 2 fold 4 done

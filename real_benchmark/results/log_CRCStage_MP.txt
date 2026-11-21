@@ -1,0 +1,31 @@
+n=167 p=6370 classes=["control", "disease"]
+ILRdata+LR: invalid input: 2756 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 0 fold 0 done
+ILRdata+LR: invalid input: 2732 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 0 fold 1 done
+ILRdata+LR: invalid input: 2843 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 0 fold 2 done
+ILRdata+LR: invalid input: 2834 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 0 fold 3 done
+ILRdata+LR: invalid input: 2824 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 0 fold 4 done
+ILRdata+LR: invalid input: 2769 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 1 fold 0 done
+ILRdata+LR: invalid input: 2774 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 1 fold 1 done
+ILRdata+LR: invalid input: 2839 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 1 fold 2 done
+ILRdata+LR: invalid input: 2790 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 1 fold 3 done
+ILRdata+LR: invalid input: 2817 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 1 fold 4 done
+ILRdata+LR: invalid input: 2777 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 2 fold 0 done
+ILRdata+LR: invalid input: 2808 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 2 fold 1 done
+ILRdata+LR: invalid input: 2803 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 2 fold 2 done
+ILRdata+LR: invalid input: 2779 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 2 fold 3 done
+ILRdata+LR: invalid input: 2788 taxa exceeds the data-driven ILR limit of 2000; raise min_prevalence or supply a phylogeny
+rep 2 fold 4 done

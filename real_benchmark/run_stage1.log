@@ -1,0 +1,15 @@
+    Finished `release` profile [optimized] target(s) in 0.10s
+skip DS1_IBD (done)
+ok DS1_CRC
+ok DS2_WT2D
+ok DS2_CRC
+ok CRCNation_USA
+ok CRCNation_AUS
+ok CRCNation_FRA
+ok CRCNation_DEU
+ok CRCNation_CHN
+ok DS1_Cirrhosis
+ok DS2_Cirrhosis
+ok DS1_Obesity
+ok DS2_Obesity
+ok DS2_T2D

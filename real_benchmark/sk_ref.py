@@ -1,4 +1,5 @@
 # scikit-learn reference on the identical folds written by zhu_bench (CLR + LR, CLR + RF). Run from real_benchmark/.
+# usage: python3 sk_ref.py <dataset name>   (data/<name>.tsv, results/folds_<name>.csv)
 import sys, time, numpy as np, pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
@@ -6,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import balanced_accuracy_score
 level = sys.argv[1]
 t = pd.read_csv(f"data/{level}.tsv", sep="\t", index_col=0)
-y = (t.pop("__label__") == "SCZ").astype(int).values; X = t.values.astype(float)
+lab = t.pop("__label__"); y = (lab == sorted(lab.unique())[-1]).astype(int).values; X = t.values.astype(float)   # positive = last class alphabetically (SCZ, disease)
 folds = pd.read_csv(f"results/folds_{level}.csv")
 def prep(Xtr, Xte, min_prev=0.1):
     keep = (Xtr > 0).mean(0) >= min_prev
